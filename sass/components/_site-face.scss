@@ -1,0 +1,38 @@
+.site-face {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image:  linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
+    url('../images/site-face-img.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.tagline {
+    max-width: 696px;
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-size: 44px;
+    letter-spacing: 0.06em;
+    line-height:1.4;
+    text-transform: uppercase;
+    color: var(--basic-wite);
+
+}
+
+.cervice-button {
+    padding: 10px 32px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    color: var(--basic-wite);
+    background-color:var(--blue);
+}

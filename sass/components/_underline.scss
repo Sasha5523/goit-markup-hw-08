@@ -1,0 +1,90 @@
+
+.underline{
+    border-bottom: 1px solid #ECECEC;
+} 
+
+.row{
+    display: flex;
+}
+
+
+.logo-p1, .logo-p2 {
+    color: var(--blue);
+    font-family: 'Raleway';
+    font-size: 26px;
+    font-weight: 700;
+    line-height:1.2;
+}
+
+.logo-p2 {
+    color:#000000;
+
+}
+.nav-list {
+    display:flex;
+    margin-left: 93px;
+}
+
+
+.nav-item{
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height:1.15;
+    color: #000000;
+
+}
+.nav-item:not(:last-child){
+    margin-right: 50px;
+}
+
+.current {
+	color: var(--blue);
+	position: relative;
+}
+.current::after {
+	content: "";
+	position: absolute;
+	bottom: -1px;
+	left: 0;
+	width: 100%;
+	height: 4px;
+	display: inline-block;
+	background-color: currentColor;
+	border-radius: 2px;
+}
+
+
+.connect{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+.connect .connect-item + .connect-item{
+    margin-left:50px;
+}
+
+.up-line{
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.connect-svg{
+    margin-right: 10px;
+}
+.connect-icon{
+    fill: currentColor;
+}
+
+.mail, 
+.phone {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    color:var(--basic-gray);
+}
